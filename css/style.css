@@ -18,8 +18,22 @@ p {
 	font-weight: 300;
 }
 
-.edu h3 {
-	
+.footer {
+	position: absolute;
+	bottom: 20px;
+	margin: auto;
+	font-size: 0.5em;
+}
+
+.ui.basic.huge.blue.button {
+	margin: 10px;
+	display: inline-block;
+	font-size: 3em;
+}
+
+.social {
+	width: 100%;
+	padding: auto;
 }
 
 .card {
@@ -89,6 +103,10 @@ p {
 	display: block;
 }
 
+.width {
+	width: 100%;
+}
+
 .bottom {
 	margin: 0 auto;
 	font-size: 4em;
@@ -115,7 +133,7 @@ p {
 	margin: auto;
 }
 
-.full-screen {
+.full-width {
 	width: 100vw;
 	margin: auto;
 }
@@ -148,8 +166,8 @@ p {
 .color-blue {
 	background-color: #2F8FED;
 }
-.color-green {
-  	background-color: #E6D767;
+.color-white {
+  	background-color: #FFFFFF;
 }
 .color-orange {
   	background-color: #E38466;
@@ -160,8 +178,8 @@ p {
 .color-teal {
 	background-color: #5BD18B;
 }
-.color-seven {
-	background-color: #F19031;
+.color-charcoal {
+	background-color: #2C2B2E;
 }
 .color-eight {
 	background-color: #F2293A;
@@ -207,6 +225,4 @@ p {
 	p {
 		font-size: 1.3em;
 	}
-
-
 }
