@@ -197,6 +197,13 @@ p {
 		margin: 15% auto 0 auto;
 	}
 
+	.bottom {
+		margin: 0 auto;
+		font-size: 4em;
+		position: absolute;
+		bottom: 10%;
+	}
+
 	p {
 		font-size: 1.3em;
 	}
