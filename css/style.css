@@ -18,6 +18,10 @@ p {
 	font-weight: 300;
 }
 
+.edu h3 {
+	
+}
+
 .card {
 	display: inline-block;
 	margin: 20px;
@@ -67,7 +71,7 @@ p {
 	width: 100%;
 	font-size: 3em;
 	font-weight: 300;
-	margin: 0 auto 2.5% auto;
+	margin: 30px auto 2.5% auto;
 	display: block;
 	text-transform: uppercase;
 }
@@ -153,8 +157,8 @@ p {
 .color-purple {
 	background-color: #B693D7;
 }
-.color-six {
-	background-color: #FAEB33;
+.color-teal {
+	background-color: #5BD18B;
 }
 .color-seven {
 	background-color: #F19031;
