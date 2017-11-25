@@ -22,6 +22,11 @@ button a {
 	color: #FFF;
 }
 
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
 .footer {
 	position: absolute;
 	bottom: 20px;
@@ -37,23 +42,51 @@ button a {
 
 .social {
 	width: 100%;
-	padding: auto;
+	font-size: 7em;
+}
+
+.social i {
+	margin: 0 30%;
+}
+
+.social i:hover {
+	color: #5BD18B;
 }
 
 .card {
 	display: inline-block;
 	margin: 20px;
-	/*padding: 10px;*/
+	/*padding: 15px;*/
 	width: 20%;
 	min-width: 250px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+.work {
+	width: 30%;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.border {
+	border: 1px solid #F2F2F2;
 }
 
 .card p {
-	font-size: 1.2em;
+	font-size: 0.8em;
+	font-weight: 300;
+}
+
+.card h4 {
+	font-weight: 400;
 }
 
 .card ul {
 	padding-left: 0;
+	list-style: none;
+	font-size: 0.8em;
+	padding-bottom: 20px;
 }
 
 .picture-me {
@@ -207,6 +240,29 @@ button a {
 	transition: opacity 0.5s ease;
 	opacity: 1.0;
 }
+
+/* STAR RATINGS */
+.one-star:after {
+	content: "★☆☆☆☆";
+}
+
+.two-stars:after {
+	content: "★★☆☆☆";
+}
+
+.three-stars:after {
+	content: "★★★☆☆";
+}
+
+.four-stars:after {
+	content: "★★★★☆";
+}
+
+.five-stars:after {
+	content: "★★★★★";
+}
+
+/* MOBILE OPTIMIZATION */
 
 @media (max-width: 650px) {
 	.top {
