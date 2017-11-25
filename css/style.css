@@ -50,7 +50,7 @@ a {
 }
 
 .social i:hover {
-	color: #5BD18B;
+	color: #256EB6;
 }
 
 .card {
@@ -195,25 +195,29 @@ a {
 /* colours */
 
 .color-blue {
-	background-color: #2F8FED;
+	background-color: #256EB6;
+	/*background-color: #2F8FED;*/
 }
 .color-white {
   	background-color: #FFFFFF;
 }
 .color-orange {
-  	background-color: #E38466;
+  	background-color: #F36F58;
+  	/*background-color: #E38466;*/
 }
 .color-purple {
-	background-color: #B693D7;
+	background-color: #9446DA;
+	/*background-color: #B693D7;*/
 }
 .color-teal {
-	background-color: #5BD18B;
+	background-color: #19C791;
+	/*background-color: #5BD18B;*/
 }
 .color-charcoal {
 	background-color: #2C2B2E;
 }
 .color-eight {
-	background-color: #F2293A;
+	background-color: #F36F58;
 }
 
 /*  EFFECTS  */
@@ -278,5 +282,9 @@ a {
 
 	p {
 		font-size: 1.3em;
+	}
+
+	.work {
+		/*width: 50%;*/
 	}
 }
