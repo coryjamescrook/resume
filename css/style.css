@@ -190,6 +190,11 @@ button a {
 		padding-bottom: 20px;
 	}
 
+	.card .course {
+		font-size: 0.9em;
+		font-weight: 700;
+	}
+
 .work {
 	width: 30%;
 	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
