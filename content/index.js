@@ -40,6 +40,7 @@ const content = {
   },
   skills: {
     heading: 'Skills',
+    subHeading: null,
     stack: [
       {
         skill: 'Javascript',
