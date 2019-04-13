@@ -19,19 +19,28 @@ html {
 }
 
 
+/* UTILITIES */
+
+.u-round {
+  border-radius: 50%;
+}
+
+
 /* SECTIONS */
 
 /* Resume */
 
 #resume {
   text-align: center;
+  width: 100%;
+  overflow-wrap: break-word;
 }
 
 
 /* Hero */
 
 #hero {
-
+  min-height: 100vh;
 }
 
 .hero__heading {
@@ -46,7 +55,7 @@ html {
 /* Bio */
 
 #bio {
-
+  min-height: 100vh;
 }
 
 .bio__heading {
@@ -58,7 +67,9 @@ html {
 }
 
 .bio__img {
-
+  max-width: 300px;
+	margin: 0 auto 2rem auto;
+	box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.8);
 }
 
 .bio__blurb {
@@ -69,7 +80,7 @@ html {
 /* Experience */
 
 #experience {
-
+  min-height: 100vh;
 }
 
 .experience__heading {
@@ -112,7 +123,7 @@ html {
 /* Skills */
 
 #skills {
-
+  min-height: 100vh;
 }
 
 .skills__heading {
@@ -143,7 +154,7 @@ html {
 /* Contact */
 
 #contact {
-
+  min-height: 100vh;
 }
 
 .contact__heading {
