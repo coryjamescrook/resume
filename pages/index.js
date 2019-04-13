@@ -10,7 +10,6 @@ function Home() {
       <Bio
         heading={resume.bio.heading}
         subHeading={resume.bio.subHeading}
-        image={resume.bio.image}
         blurb={resume.bio.blurb}
       />
     </div>
