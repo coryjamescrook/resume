@@ -10,13 +10,13 @@ const Experience = ({ experience }) => {
     ))
 
     return (
-      <div id="experience">
+      <section id="experience">
         <h1 className="experience__heading">{experience.heading}</h1>
         { experience.subHeading ? <h2 className="experience__sub-heading">{experience.subHeading}</h2> : null }
         <div className="experience__jobs">
           { jobCards }
         </div>
-      </div>
+      </section>
     )
 }
 
