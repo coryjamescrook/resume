@@ -1,8 +1,8 @@
 const Skills = ({ skills }) => {
   return (
     <div id="skills">
-      <h1>{skills.heading}</h1>
-      { skills.subHeading ? <h2>{skills.subHeading}</h2> : null }
+      <h1 className="skills__heading">{skills.heading}</h1>
+      { skills.subHeading ? <h2 className="skills__heading">{skills.subHeading}</h2> : null }
       <div className="skills__stack-list">
         { skills.stack.map((s, i) => <Skill key={i} item={s} /> ) }
       </div>

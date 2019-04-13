@@ -11,8 +11,8 @@ const Experience = ({ experience }) => {
 
     return (
       <div id="experience">
-        <h1>{experience.heading}</h1>
-        { experience.subHeading ? <h2>{experience.subHeading}</h2> : null }
+        <h1 className="experience__heading">{experience.heading}</h1>
+        { experience.subHeading ? <h2 className="experience__sub-heading">{experience.subHeading}</h2> : null }
         <div className="experience__jobs">
           { jobCards }
         </div>
