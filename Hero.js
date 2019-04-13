@@ -1,4 +1,4 @@
-function Hero({ heading, subHeading }) {
+const Hero = ({ heading, subHeading }) => {
   return (
     <div id="hero">
       <h1>{heading}</h1>
