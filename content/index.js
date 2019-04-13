@@ -110,6 +110,6 @@ const content = {
     github: 'https://github.com/coryjamescrook',
     linkedIn: 'www.linkedin.com/in/coryjamescrook'
   }
-};
+}
 
 export default content

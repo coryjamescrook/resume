@@ -1,6 +1,6 @@
 import profilePhoto from '../img/cory-greece.jpeg'
 
-function Bio({ heading, subHeading, blurb }) {
+const Bio = ({ heading, subHeading, blurb }) => {
   return (
     <div id="bio">
       <h1>{heading}</h1>
