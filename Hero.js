@@ -1,8 +1,8 @@
-const Hero = ({ heading, subHeading }) => {
+const Hero = ({ hero }) => {
   return (
     <div id="hero">
-      <h1>{heading}</h1>
-      { subHeading ? <h2>{subHeading}</h2> : null }
+      <h1>{hero.heading}</h1>
+      { hero.subHeading ? <h2>{hero.subHeading}</h2> : null }
     </div>
   )
 }
