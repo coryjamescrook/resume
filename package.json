@@ -1,0 +1,27 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "This is my development resume. Using HTML, CSS, JS, & jQuery.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coryjamescrook/resume.git"
+  },
+  "author": "Cory Crook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coryjamescrook/resume/issues"
+  },
+  "homepage": "https://github.com/coryjamescrook/resume#readme",
+  "dependencies": {
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
