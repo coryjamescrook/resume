@@ -1,12 +1,12 @@
 const Skills = ({ skills }) => {
   return (
-    <div id="skills">
+    <section id="skills">
       <h1 className="skills__heading">{skills.heading}</h1>
       { skills.subHeading ? <h2 className="skills__heading">{skills.subHeading}</h2> : null }
       <div className="skills__stack-list">
         { skills.stack.map((s, i) => <Skill key={i} item={s} /> ) }
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -1,6 +1,6 @@
 const Contact = ({ contact }) => {
   return (
-    <div id="contact">
+    <section id="contact">
       <h1 className="contact__heading">{contact.heading}</h1>
       {contact.subHeading ? <h2 className="contact__sub-heading">{contact.subHeading}</h2> : null}
       <a href={`mailto:${contact.email}`} className="contact__email link">
@@ -12,7 +12,7 @@ const Contact = ({ contact }) => {
       <a href={contact.linkedIn} target="_blank" className="contact__linkedin link">
         LinkedIn
       </a>
-    </div>
+    </section>
   )
 }
 
