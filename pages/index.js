@@ -6,6 +6,10 @@ import Experience from './Experience'
 import Skills from './Skills'
 import Contact from './Contact'
 
+import '../styles/normalize.css'
+import '../styles/skeleton.css'
+import '../styles/base.css'
+
 function Home() {
   return (
     <div id="resume">
