@@ -109,7 +109,7 @@ const content = {
     subHeading: 'Want to get in touch?',
     email: 'coryjamescrook@gmail.com',
     github: 'https://github.com/coryjamescrook',
-    linkedIn: 'www.linkedin.com/in/coryjamescrook'
+    linkedIn: 'https://www.linkedin.com/in/coryjamescrook'
   }
 }
 
