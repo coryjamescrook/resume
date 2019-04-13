@@ -12,7 +12,7 @@ const Experience = ({ heading, subHeading, jobs }) => {
     return (
       <div id="experience">
         <h1>{heading}</h1>
-        <h2>{subHeading}</h2>
+        { subHeading ? <h2>{subHeading}</h2> : null }
         <div className="experience__jobs">
           { jobCards }
         </div>

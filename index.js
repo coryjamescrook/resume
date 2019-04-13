@@ -3,6 +3,7 @@ import resume from '../content'
 import Hero from './Hero'
 import Bio from './Bio'
 import Experience from './Experience'
+import Skills from './Skills'
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
         subHeading={resume.experience.subHeading}
         jobs={resume.experience.jobs}
       />
+      <Skills skills={resume.skills} />
     </div>
   )
 }
