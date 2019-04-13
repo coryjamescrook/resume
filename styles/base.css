@@ -1,0 +1,167 @@
+@import './normalize.css';
+@import './skeleton.css';
+
+/* SITE STYLES */
+
+html {
+  font-size: 10px;
+}
+
+
+/* COMPONENTS */
+
+.card {
+  
+}
+
+.link {
+
+}
+
+
+/* SECTIONS */
+
+/* Resume */
+
+#resume {
+  
+}
+
+
+/* Hero */
+
+#hero {
+
+}
+
+.hero__heading {
+
+}
+
+.hero__sub-heading {
+
+}
+
+
+/* Bio */
+
+#bio {
+
+}
+
+.bio__heading {
+
+}
+
+.bio__sub-heading {
+
+}
+
+.bio__img {
+
+}
+
+.bio__blurb {
+  
+}
+
+
+/* Experience */
+
+#experience {
+
+}
+
+.experience__heading {
+
+}
+
+.experience__sub-heading {
+
+}
+
+.experience__jobs {
+
+}
+
+.experience__job {
+  
+}
+
+.experience__job-company {
+
+}
+
+.experience__job-title {
+  
+}
+
+.experience__job-dates {
+  
+}
+
+.experience__job-duties {
+  
+}
+
+.experience__job-duty {
+
+}
+
+
+/* Skills */
+
+#skills {
+
+}
+
+.skills__heading {
+
+}
+
+.skills__sub-heading {
+
+}
+
+.skills__stack-list {
+
+}
+
+.skills__stack-item {
+  
+}
+
+.skills__stack-item > h3 {
+  
+}
+
+.skills__stack-item > h4 {
+  
+}
+
+
+/* Contact */
+
+#contact {
+
+}
+
+.contact__heading {
+
+}
+
+.contact__sub-heading {
+
+}
+
+.contact__email {
+
+}
+
+.contact__github {
+  
+}
+
+.contact__linkedin {
+
+}
