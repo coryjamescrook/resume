@@ -10,7 +10,7 @@ import '../styles/base.css'
 
 function Home() {
   return (
-    <div id="resume">
+    <div id="resume" className="container">
       <Hero hero={resume.hero} />
       <Bio bio={resume.bio} />
       <Experience experience={resume.experience} />
