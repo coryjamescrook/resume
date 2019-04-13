@@ -6,7 +6,7 @@ const content = {
   bio: {
     heading: 'Bio',
     subHeading: null,
-    image: null,
+    image: '../img/cory-greece.jpg',
     blurb: '<p>I am a focused professional with a background in media, business management, project management, and most recently - web development.</p><p>I am constantly learning:<br/>Learning to be a better developer. Learning to be a more effective leader. Learning how to brew the perfect craft beer.</p>'
   },
   experience: {
