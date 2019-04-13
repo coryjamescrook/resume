@@ -36,11 +36,21 @@ html {
   overflow-wrap: break-word;
 }
 
+#resume > section {
+  min-height: 100vh;
+}
+
 
 /* Hero */
 
 #hero {
-  min-height: 100vh;
+  
+}
+
+.hero__content {
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
 }
 
 .hero__heading {
@@ -55,7 +65,7 @@ html {
 /* Bio */
 
 #bio {
-  min-height: 100vh;
+  
 }
 
 .bio__heading {
@@ -80,7 +90,7 @@ html {
 /* Experience */
 
 #experience {
-  min-height: 100vh;
+  
 }
 
 .experience__heading {
@@ -123,7 +133,7 @@ html {
 /* Skills */
 
 #skills {
-  min-height: 100vh;
+  
 }
 
 .skills__heading {
@@ -154,7 +164,7 @@ html {
 /* Contact */
 
 #contact {
-  min-height: 100vh;
+  
 }
 
 .contact__heading {
