@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "1.0.0",
   "description": "This is my development resume. Using HTML, CSS, JS, & jQuery.",
-  "main": "index.js",
+  "main": "pages/index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
