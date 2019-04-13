@@ -1,5 +1,5 @@
-const Experience = ({ heading, subHeading, jobs }) => {
-    const jobCards = jobs.map((job, i) => (
+const Experience = ({ experience }) => {
+    const jobCards = experience.jobs.map((job, i) => (
       <Job
         key={i}
         company={job.company}
@@ -11,8 +11,8 @@ const Experience = ({ heading, subHeading, jobs }) => {
 
     return (
       <div id="experience">
-        <h1>{heading}</h1>
-        { subHeading ? <h2>{subHeading}</h2> : null }
+        <h1>{experience.heading}</h1>
+        { experience.subHeading ? <h2>{experience.subHeading}</h2> : null }
         <div className="experience__jobs">
           { jobCards }
         </div>

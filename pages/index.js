@@ -8,17 +8,9 @@ import Skills from './Skills'
 function Home() {
   return (
     <div id="resume">
-      <Hero heading={resume.hero.heading} subHeading={resume.hero.subHeading} />
-      <Bio
-        heading={resume.bio.heading}
-        subHeading={resume.bio.subHeading}
-        blurb={resume.bio.blurb}
-      />
-      <Experience
-        heading={resume.experience.heading}
-        subHeading={resume.experience.subHeading}
-        jobs={resume.experience.jobs}
-      />
+      <Hero hero={resume.hero} />
+      <Bio bio={resume.bio} />
+      <Experience experience={resume.experience} />
       <Skills skills={resume.skills} />
     </div>
   )
