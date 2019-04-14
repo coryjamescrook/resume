@@ -161,12 +161,13 @@ html {
 
 .bio__img {
   max-width: 300px;
-	margin: 0 auto 2rem auto;
+	margin: 0 auto 4rem auto;
 	box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.8);
 }
 
 .bio__blurb {
   font-size: 2rem;
+  font-weight: 500;
   max-width: 80%;
   margin: 0 auto;
 }
