@@ -5,7 +5,7 @@ const Skills = ({ skills }) => {
       {skills.subHeading ? <h2 className="skills__sub-heading u-lowercase">{skills.subHeading}</h2> : null }
       <div className="skills__stack-list">
         { skills.stack.map((s, i) => (
-          <div key={i} className="skills__stack-item card">
+          <div key={i} className="skills__stack-item skill-card">
             <h3>{s.skill}</h3>
             <h4>{`${s.level} / 5`}</h4>
           </div>
