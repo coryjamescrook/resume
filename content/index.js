@@ -16,7 +16,7 @@ const content = {
         company: 'Akira Health',
         title: 'Full Stack Developer',
         dates: 'Jan 2018 - Present',
-        duties: ['ReactJS', 'Redux', 'Javascript', 'Typescript', 'Ruby', 'Sequel', 'PostgreSQL']
+        duties: ['ReactJS & Redux', 'Javascript', 'Typescript', 'Ruby', 'Sequel', 'PostgreSQL']
       },
       {
         company: 'Toronto Sound',

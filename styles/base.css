@@ -18,6 +18,8 @@ html {
 
 .skill-card {
   padding: 2rem 2rem;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 .link {
@@ -124,11 +126,7 @@ html {
 .bio__blurb {
   font-size: 2rem;
   max-width: 80%;
-}
-
-.bio__blurb > p {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 
@@ -152,7 +150,7 @@ html {
 }
 
 .experience__job {
-  margin: 1rem;
+  margin-bottom: 3rem;
 }
 
 .experience__job-company {
@@ -192,7 +190,7 @@ html {
 }
 
 .skills__stack-list {
-
+  margin-top: 3rem;
 }
 
 .skills__stack-item {
@@ -233,4 +231,42 @@ html {
 
 .contact__linkedin {
 
+}
+
+
+/* MEDIA QUERIES */
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  .skill-card {
+    width: 100%;
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .skill-card {
+    width: 100%;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .skill-card {
+    width: 50%;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .skill-card {
+    width: 33.33%;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  .skill-card {
+    width: 25%;
+  }
 }
