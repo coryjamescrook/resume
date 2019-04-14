@@ -31,7 +31,7 @@ class Home extends React.PureComponent {
     const contents = showCode
       ? <Code resume={resume} toggleCodeAction={this.toggleShowCode} />
       : <React.Fragment>
-          <Hero hero={resume.hero} subHeadingAction={this.toggleShowCode} />
+          <Hero hero={resume.hero} subHeadingAction={undefined} />
           <Bio bio={resume.bio} />
           <Experience experience={resume.experience} />
           <Skills skills={resume.skills} />
