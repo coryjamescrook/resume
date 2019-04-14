@@ -8,8 +8,8 @@ const Experience = ({ experience }) => {
       let nextJob = experience.jobs[i + 1]
       if (i === numOfJobs - 1) {
         c.push(
-          <div className="experience__jobs row">
-            <div className="experience__job card u-rounded one-half column" key={i}>
+          <div className="experience__jobs row" key={i}>
+            <div className="experience__job card u-rounded one-half column">
               <h3 className="experience__job-company">{job.company}</h3>
               <h4 className="experience__job-title">{job.title}</h4>
               <h5 className="experience__job-dates">{job.dates}</h5>
@@ -23,8 +23,8 @@ const Experience = ({ experience }) => {
         // do nothing
       } else {
         c.push(
-          <div className="experience__jobs row">
-            <div className="experience__job card u-rounded one-half column" key={i}>
+          <div className="experience__jobs row" key={i}>
+            <div className="experience__job card u-rounded one-half column">
               <h3 className="experience__job-company">{job.company}</h3>
               <h4 className="experience__job-title">{job.title}</h4>
               <h5 className="experience__job-dates">{job.dates}</h5>
