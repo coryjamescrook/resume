@@ -1,36 +1,24 @@
 const Experience = ({ experience }) => {
     const jobCards = experience.jobs.map((job, i) => (
-      <Job
-        key={i}
-        company={job.company}
-        title={job.title}
-        dates={job.dates}
-        duties={job.duties}
-      />
+      <div className="experience__job card u-rounded one-half column" key={i}>
+        <h3 className="experience__job-company">{job.company}</h3>
+        <h4 className="experience__job-title">{job.title}</h4>
+        <h5 className="experience__job-dates">{job.dates}</h5>
+        <ul className="experience__job-duties">
+          { job.duties.map((d, i) => <li key={i} className="experience__job-duty">{d}</li>) }
+        </ul>
+      </div>
     ))
 
     return (
       <section id="experience">
-        <h1 className="experience__heading">{experience.heading}</h1>
-        { experience.subHeading ? <h2 className="experience__sub-heading">{experience.subHeading}</h2> : null }
-        <div className="experience__jobs">
+        <h1 className="experience__heading u-upcase">{experience.heading}</h1>
+        {experience.subHeading ? <h2 className="experience__sub-heading u-lowercase">{experience.subHeading}</h2> : null }
+        <div className="experience__jobs row">
           { jobCards }
         </div>
       </section>
     )
-}
-
-const Job = ({ key, company, title, dates, duties }) => {
-  return (
-    <div className="experience__job card" key={key}>
-      <h3 className="experience__job-company">{company}</h3>
-      <h4 className="experience__job-title">{title}</h4>
-      <h5 className="experience__job-dates">{dates}</h5>
-      <ul className="experience__job-duties">
-        { duties.map((d, i) => <li key={i} className="experience__job-duty">{d}</li> )}
-      </ul>
-    </div>
-  )
 }
 
 export default Experience

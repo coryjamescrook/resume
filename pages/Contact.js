@@ -1,8 +1,8 @@
 const Contact = ({ contact }) => {
   return (
     <section id="contact">
-      <h1 className="contact__heading">{contact.heading}</h1>
-      {contact.subHeading ? <h2 className="contact__sub-heading">{contact.subHeading}</h2> : null}
+      <h1 className="contact__heading u-upcase">{contact.heading}</h1>
+      {contact.subHeading ? <h2 className="contact__sub-heading u-lowercase">{contact.subHeading}</h2> : null}
       <a href={`mailto:${contact.email}`} className="contact__email link">
         Email
       </a>
