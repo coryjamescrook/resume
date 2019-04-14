@@ -12,7 +12,12 @@ html {
 
 .card {
   box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.8);
-  padding: 2rem;
+  padding: 2rem 2rem;
+  background-image: linear-gradient(#ffffff, #e8e8e8)
+}
+
+.skill-card {
+  padding: 2rem 2rem;
 }
 
 .link {
@@ -72,7 +77,7 @@ html {
 /* Hero */
 
 #hero {
-  background-image: linear-gradient(#f2f2f2f2, #7887AB)
+  background-image: linear-gradient(#f2f2f2, #7887AB)
 }
 
 .hero__content {
@@ -98,7 +103,8 @@ html {
 /* Bio */
 
 #bio {
-  background-image: linear-gradient(#7887AB, #403075)
+  background-color: #7887AB;
+  background-image: linear-gradient(#7887AB, #f2f2f2)
 }
 
 .bio__heading {
@@ -116,14 +122,21 @@ html {
 }
 
 .bio__blurb {
-  
+  font-size: 2rem;
+  max-width: 80%;
+}
+
+.bio__blurb > p {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
 /* Experience */
 
 #experience {
-  background-image: linear-gradient(#403075, #AA8439)
+  background-color: #f2f2f2;
+  color: #403075;
 }
 
 .experience__heading {
@@ -135,11 +148,11 @@ html {
 }
 
 .experience__jobs {
-  width: 75%;
+  
 }
 
 .experience__job {
-  margin: 2rem auto;
+  margin: 1rem;
 }
 
 .experience__job-company {
@@ -166,7 +179,8 @@ html {
 /* Skills */
 
 #skills {
-  background-image: linear-gradient(#AA8439, #AA9739)
+  background-color: #303030;
+  color: #f2f2f2;
 }
 
 .skills__heading {
@@ -197,7 +211,8 @@ html {
 /* Contact */
 
 #contact {
-  background-image: linear-gradient(#AA9739, #2E4172)
+  background-color: #2E4172;
+  color: #f2f2f2;
 }
 
 .contact__heading {
