@@ -5,7 +5,7 @@ const Hero = ({ hero, subHeadingAction }) => {
         <h1 className="hero__heading u-upcase">{hero.heading}</h1>
         {
           hero.subHeading
-            ? <h2 onClick={subHeadingAction} className="hero__sub-heading link u-lowercase">{`{{ ${hero.subHeading} }}`}</h2>
+            ? <h2 onClick={subHeadingAction} className="hero__sub-heading link u-lowercase">{hero.subHeading}</h2>
             : null
         }
       </div>
