@@ -49,6 +49,39 @@ html {
   text-transform: lowercase;
 }
 
+.u-margin-top-4 {
+  margin-top: 4rem;
+}
+
+
+/* SPECIAL */
+
+/* STAR RATINGS */
+
+.rating {
+  color: #FFF0AA;
+}
+
+.one-star:after {
+	content: "★☆☆☆☆";
+}
+
+.two-stars:after {
+	content: "★★☆☆☆";
+}
+
+.three-stars:after {
+	content: "★★★☆☆";
+}
+
+.four-stars:after {
+	content: "★★★★☆";
+}
+
+.five-stars:after {
+	content: "★★★★★";
+}
+
 
 /* SECTIONS */
 
@@ -115,6 +148,10 @@ html {
 
 .bio__sub-heading {
 
+}
+
+.bio__content {
+  
 }
 
 .bio__img {
@@ -190,7 +227,7 @@ html {
 }
 
 .skills__stack-list {
-  margin-top: 3rem;
+  
 }
 
 .skills__stack-item {
