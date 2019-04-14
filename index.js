@@ -40,6 +40,7 @@ class Home extends React.PureComponent {
     
     return (
       <div id="resume" className="container">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,400,400i,500,5001,700,700i,900,900i" rel="stylesheet" />
         { contents }
       </div>
     )
