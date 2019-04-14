@@ -143,6 +143,14 @@ section#hero {
   margin: 0 auto;
 }
 
+.hero__sub-heading:hover:before {
+  content: "{{ ";
+}
+
+.hero__sub-heading:hover:after {
+  content: " }}";
+}
+
 
 /* Bio */
 
