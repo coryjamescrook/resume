@@ -1,6 +1,6 @@
 # Resume
 
-This is my development resume. Using HTML, CSS, JS, & jQuery.
+This is my development resume. Made with NextJS.
 
 ## Authors
 
